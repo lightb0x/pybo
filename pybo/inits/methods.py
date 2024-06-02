@@ -53,7 +53,7 @@ def init_latin(bounds, n=None, rng=None):
     X = bounds[:, 0] + w * (np.arange(n)[:, None] + rng.rand(n, d)) / n
 
     # shuffle each dimension.
-    for i in xrange(d):
+    for i in range(d):
         X[:, i] = rng.permutation(X[:, i])
 
     return X

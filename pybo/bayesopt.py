@@ -12,7 +12,7 @@ import numpy as np
 import inspect
 import functools
 import os.path
-import cPickle as pickle
+import _pickle as pickle
 import collections
 
 import reggie
